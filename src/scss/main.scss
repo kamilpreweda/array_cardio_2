@@ -6,11 +6,17 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: $yellow;
   background: $violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
